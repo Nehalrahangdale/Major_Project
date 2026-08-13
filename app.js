@@ -111,7 +111,7 @@ app.set("view engine", "ejs");
 
 app.set(
   "views",
-  path.join(__dirname, "views")
+  path.join(__dirname, "view")
 );
 
 app.engine("ejs", ejsMate);
